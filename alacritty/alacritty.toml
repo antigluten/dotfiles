@@ -1,0 +1,31 @@
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+#[env]
+#TERM = "xterm-256color"
+
+[font]
+size = 15
+
+[font.normal]
+family = "DejaVuSansM Nerd Font"
+style = "Regular"
+
+[scrolling]
+history = 100000
+
+[window]
+title = "Terminal"
+dynamic_title = true
+dimensions = { columns = 133, lines = 38 }
+position = { x = 240, y = 40 }
+
+decorations_theme_variant = "Light"
+dynamic_padding = true
+option_as_alt = "OnlyLeft"
