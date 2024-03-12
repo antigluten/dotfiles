@@ -1,0 +1,3 @@
+[submodule "nvimrc"]
+	path = nvimrc
+	url = https://github.com/antigluten/nvimrc
